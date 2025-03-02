@@ -4,7 +4,7 @@ api_key ='792d42ecc5a74bd1a8593b8adf04be6a'
 import pandas as pd
 
 
-ticker ="EUR/USD"
+ticker ="MSFT"
 interval ='1day'
 api_url =f'https://api.twelvedata.com/time_series?symbol={ticker}&start_date=2025-03-02&end_date=2025_03_03&interval{interval}&outputsize=12&apikey={api_key}'
 data = requests.get(api_url).json()
