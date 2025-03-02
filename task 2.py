@@ -22,6 +22,6 @@ data1['close'] = pd.to_numeric(data1['close'])
 
 # Calculate the 'bought_price' as the average of 'high' and 'low'
 data1['bought_price'] = (data1['high'] + data1['low']) / 2
-data1['sale_price']
+data1['sell_price']
 
 data1
